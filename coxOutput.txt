@@ -1,0 +1,70 @@
+Univariate
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.81965   0.44058 0.10018  0.36204  0.53617 -5.58
+                                P
+Treatment_ChemoRadiotherapy 2e-08
+
+                          coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_Radiotherapy 0.81965   2.26972 0.10018  1.86507  2.76213 12.67
+                            P
+Treatment_Radiotherapy <2e-16
+
+              coef exp.coef.      SE lower_ci upper_ci     Z     P
+Tstage_T2 -0.56782   0.56676 0.11494  0.45244  0.70997 -3.77 2e-04
+
+             coef exp.coef.      SE lower_ci upper_ci    Z    P
+Tstage_T3 0.21753     1.243 0.10651  1.00881  1.53156 2.28 0.02
+
+           coef exp.coef.     SE lower_ci upper_ci     Z      P
+Tstage_T4 0.906    2.4744 0.1049  2.01455  3.03923 14.05 <2e-16
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+HPV_HPV_Positive -0.84475   0.42966 0.10639  0.34879  0.52929 -5.36 8e-08
+
+                  coef exp.coef.      SE lower_ci upper_ci     Z      P
+HPV_HPV_Negative 1.05431      2.87 0.10443  2.33877  3.52187 17.91 <2e-16
+
+               coef exp.coef.      SE lower_ci upper_ci    Z   P
+HPV_Unknown 0.04403   1.04501 0.10673  0.84776  1.28817 0.42 0.7
+
+             coef exp.coef.      SE lower_ci upper_ci    Z   P
+Nstage_N0 0.06276   1.06477 0.13298  0.82047  1.38182 0.49 0.6
+
+            coef exp.coef.      SE lower_ci upper_ci    Z   P
+Nstage_N1 0.1805   1.19781 0.14192  0.90695  1.58196 1.39 0.2
+
+              coef exp.coef.      SE lower_ci upper_ci     Z    P
+Nstage_N2 -0.23285   0.79227 0.10493  0.64499  0.97318 -1.98 0.05
+
+t1 on all except montreal
+
+              coef exp.coef.      SE lower_ci upper_ci     Z     P
+Tstage_T1 -0.82407   0.43864 0.17959  0.30849  0.62371 -3.13 0.002
+
+
+
+Train on all 5
+
+
+
+Validate Node 5
+
+Validate Node 4
+
+Validate Node 3
+
+Validate Node 2
+
+Validate Node 1
+
+
+Train on 4 - validate on Node 5
+
+Train on 4 - validate on Node 4
+
+Train on 4 - validate on Node 3
+
+Train on 4 - validate on Node 2
+
+Train on 4 - validate on Node 1

@@ -1,0 +1,196 @@
+Univariate results - clinical
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.86961   0.41912 0.10578  0.34064  0.51567 -5.49
+                                P
+Treatment_ChemoRadiotherapy 4e-08
+
+              coef exp.coef.      SE lower_ci upper_ci     Z      P
+T3orHigher 0.95465   2.59776 0.11135  2.08841  3.23134 14.35 <2e-16
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+HPV_HPV_Positive -0.69564   0.49876 0.10977  0.40221  0.61848 -4.57 5e-06
+
+                  coef exp.coef.      SE lower_ci upper_ci     Z      P
+HPV_HPV_Negative 1.25332   3.50194 0.10814  2.83308  4.32873 23.14 <2e-16
+
+               coef exp.coef.      SE lower_ci upper_ci     Z    P
+HPV_Unknown -0.3339   0.71612 0.12714  0.55817  0.91878 -2.23 0.03
+
+             coef exp.coef.      SE lower_ci upper_ci     Z   P
+N2orHigher -0.19084   0.82627 0.11515  0.65933  1.03547 -1.51 0.1
+
+
+Train on 5 nodes
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.89058   0.41042 0.11535  0.32737  0.51453 -5.11
+T3orHigher                   0.94548   2.57406 0.11327  2.06158  3.21391 13.90
+HPV_HPV_Positive            -0.16381   0.84890 0.14107  0.64384  1.11928 -1.07
+HPV_HPV_Negative             0.87626   2.40190 0.14292  1.81509  3.17842  9.81
+N2orHigher                   0.26724   1.30636 0.12228  1.02795  1.66015  2.51
+                                 P
+Treatment_ChemoRadiotherapy  3e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive              0.28
+HPV_HPV_Negative            <2e-16
+N2orHigher                    0.01
+
+Validation
+
+1) Concordance Index\": 0.7186440677966102
+2) Concordance Index\": 0.639142306456794
+3) Concordance Index\": 0.6234887737478411
+4) Concordance Index\": 0.7255284536617498
+5) Concordance Index\": 0.6730434782608695
+
+Train on 4 - validate node 5
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.92448   0.39674 0.12005  0.31356  0.50199 -5.03
+T3orHigher                   0.93573   2.54906 0.11696  2.02686  3.20583 13.24
+HPV_HPV_Positive            -0.19589   0.82210 0.14337  0.62071  1.08884 -1.24
+HPV_HPV_Negative             0.87244   2.39275 0.14613  1.79683  3.18628  9.53
+N2orHigher                   0.30880   1.36179 0.13063  1.05418  1.75916  2.77
+                                 P
+Treatment_ChemoRadiotherapy  5e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.215
+HPV_HPV_Negative            <2e-16
+N2orHigher                   0.006
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.96267   0.38187 0.11772  0.30319  0.48098 -5.25
+T3orHigher                   0.91178   2.48875 0.11592  1.98293  3.12359 12.84
+HPV_HPV_Positive            -0.21521   0.80637 0.14193  0.61055  1.06500 -1.36
+HPV_HPV_Negative             0.82178   2.27454 0.14337  1.71734  3.01254  8.89
+N2orHigher                   0.31276   1.36719 0.12841  1.06298  1.75847  2.86
+                                 P
+Treatment_ChemoRadiotherapy  2e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.172
+HPV_HPV_Negative            <2e-16
+N2orHigher                   0.004
+
+
+Concordance Index\": 0.6730434782608695
+
+Train on 4 - validate node 4
+
+                               coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.62878   0.53324 0.19933  0.36079  0.78813 -2.34
+T3orHigher                   0.92769   2.52866 0.17309  1.80116  3.55000  8.83
+HPV_HPV_Positive            -0.14329   0.86650 0.20525  0.57951  1.29563 -0.65
+HPV_HPV_Negative             0.95569   2.60048 0.20466  1.74117  3.88384  7.82
+N2orHigher                  -0.02984   0.97060 0.18306  0.67798  1.38952 -0.16
+                                 P
+Treatment_ChemoRadiotherapy   0.02
+T3orHigher                  <2e-16
+HPV_HPV_Positive              0.52
+HPV_HPV_Negative             5e-15
+N2orHigher                    0.87
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.70831   0.49248 0.19330  0.33717  0.71933 -2.63
+T3orHigher                   0.88836   2.43114 0.17048  1.74058  3.39567  8.39
+HPV_HPV_Positive            -0.17191   0.84206 0.20110  0.56775  1.24888 -0.79
+HPV_HPV_Negative             0.86539   2.37594 0.19794  1.61192  3.50206  6.95
+N2orHigher                   0.00185   1.00186 0.17744  0.70756  1.41855  0.01
+                                 P
+Treatment_ChemoRadiotherapy  0.009
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.432
+HPV_HPV_Negative             4e-12
+N2orHigher                   0.992
+
+Concordance Index\": 0.7110870476456616
+
+Train on 4 - validate node 3
+
+                    coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.84538   0.42939 0.11793  0.34078  0.54105 -4.84
+T3orHigher                   0.94874   2.58245 0.11697  2.05336  3.24788 13.53
+HPV_HPV_Positive            -0.17142   0.84247 0.15075  0.62695  1.13207 -1.05
+HPV_HPV_Negative             0.88789   2.43000 0.15261  1.80178  3.27725  9.37
+N2orHigher                   0.28589   1.33095 0.12543  1.04086  1.70188  2.64
+                                 P
+Treatment_ChemoRadiotherapy  1e-06
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.296
+HPV_HPV_Negative            <2e-16
+N2orHigher                   0.008
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.88998   0.41066 0.11572  0.32733  0.51522 -5.09
+T3orHigher                   0.92207   2.51450 0.11592  2.00344  3.15590 13.06
+HPV_HPV_Positive            -0.19475   0.82304 0.14898  0.61462  1.10214 -1.19
+HPV_HPV_Negative             0.83052   2.29450 0.14960  1.71139  3.07633  8.65
+N2orHigher                   0.28875   1.33476 0.12353  1.04774  1.70041  2.71
+                                 P
+Treatment_ChemoRadiotherapy  4e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.235
+HPV_HPV_Negative            <2e-16
+N2orHigher                   0.007
+
+Concordance Index\": 0.6223373632700058
+
+Train on 4 - validate node 2
+
+                               coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.91374   0.40102 0.13091  0.31027  0.51832 -4.58
+T3orHigher                   0.89168   2.43922 0.12851  1.89610  3.13792 11.20
+HPV_HPV_Positive            -0.27864   0.75681 0.17004  0.54231  1.05616 -1.43
+HPV_HPV_Negative             0.76803   2.15551 0.16507  1.55970  2.97894  7.00
+N2orHigher                   0.35670   1.42860 0.13435  1.09787  1.85898  3.19
+                                 P
+Treatment_ChemoRadiotherapy  5e-06
+T3orHigher                  <2e-16
+HPV_HPV_Positive             0.153
+HPV_HPV_Negative             3e-12
+N2orHigher                   0.001
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.95707   0.38402 0.12916  0.29813  0.49464 -4.77
+T3orHigher                   0.88112   2.41360 0.12845  1.87641  3.10459 11.01
+HPV_HPV_Positive            -0.28818   0.74963 0.17000  0.53720  1.04605 -1.47
+HPV_HPV_Negative             0.73773   2.09119 0.16417  1.51582  2.88494  6.65
+N2orHigher                   0.38440   1.46874 0.13356  1.13046  1.90823  3.51
+                                 P
+Treatment_ChemoRadiotherapy  2e-06
+T3orHigher                  <2e-16
+HPV_HPV_Positive               0.1
+HPV_HPV_Negative             3e-11
+N2orHigher                   4e-04
+
+Concordance Index\": 0.630565371024735
+
+Train on 4 - validate node 1
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.90360   0.40511 0.12124  0.31943  0.51378 -4.91
+T3orHigher                   0.95906   2.60925 0.11965  2.06379  3.29885 13.45
+HPV_HPV_Positive            -0.11261   0.89350 0.14383  0.67401  1.18447 -0.74
+HPV_HPV_Negative             0.89003   2.43520 0.15078  1.81213  3.27251  9.52
+N2orHigher                   0.26270   1.30044 0.12988  1.00817  1.67743  2.31
+                                 P
+Treatment_ChemoRadiotherapy  9e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive              0.46
+HPV_HPV_Negative            <2e-16
+N2orHigher                    0.02
+
+                                coef exp.coef.      SE lower_ci upper_ci     Z
+Treatment_ChemoRadiotherapy -0.91368   0.40104 0.12030  0.31681  0.50769 -4.98
+T3orHigher                   0.93909   2.55766 0.11857  2.02728  3.22679 13.14
+HPV_HPV_Positive            -0.12542   0.88213 0.14238  0.66732  1.16608 -0.83
+HPV_HPV_Negative             0.86004   2.36326 0.14880  1.76543  3.16353  9.16
+N2orHigher                   0.23610   1.26630 0.12842  0.98452  1.62873  2.07
+                                 P
+Treatment_ChemoRadiotherapy  6e-07
+T3orHigher                  <2e-16
+HPV_HPV_Positive              0.41
+HPV_HPV_Negative            <2e-16
+N2orHigher                    0.04
+
+Concordance Index\": 0.7186440677966102
